@@ -1,0 +1,5 @@
+Group By Example: 
+SELECT OrderID, SUM(Quantity) AS Total
+FROM OrderDetails
+Group BY OrderID;
+
